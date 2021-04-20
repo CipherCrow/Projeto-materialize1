@@ -74,3 +74,29 @@ a{text-decoration: none;color: initial;}
 	border-bottom: 1px solid #d81b60  !important;
 	box-shadow: 0 1px 0 0 #d81b60  !important;
 }
+	/*Sessão autor*/
+
+.card-content p{
+	font-size: 1.4rem;
+}
+.titulo-custom{
+	position: relative;
+}
+.titulo-custom h2{
+	font-size: 3rem;
+	color: #777;
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	z-index: 1;
+	padding: 0 1rem;
+}
+.titulo-custom > div{
+	width: 100%;
+	position: absolute;
+	height: .3rem;
+	background-color: #777;
+	left: 0;
+	top: 4rem;
+	z-index: 0;
+}
