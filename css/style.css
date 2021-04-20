@@ -66,11 +66,14 @@ a{text-decoration: none;color: initial;}
 .input-field label{
 	font-size: 2rem;
 }
-.input-field input[type=email]:focus + label {
+.input-field input{
+	height: 4rem !important;
+}
+.input-field input:focus + label {
 	color: #d81b60  !important; 
 }
 /*Temporário, preciso me ligar o motivo que não consigo estilizar*/
-.input-field input[type=email]:focus {
+.input-field input:focus {
 	border-bottom: 1px solid #d81b60  !important;
 	box-shadow: 0 1px 0 0 #d81b60  !important;
 }
@@ -99,4 +102,17 @@ a{text-decoration: none;color: initial;}
 	left: 0;
 	top: 4rem;
 	z-index: 0;
+}
+	/*formulario*/
+.formulario{
+	max-width: 70rem;
+}
+	/*footer*/
+.footer-text p ,
+.links li{
+	font-size: 1.2rem;
+}
+
+.footer-copyright p{
+	font-size: initial;
 }

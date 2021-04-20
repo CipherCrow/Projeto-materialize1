@@ -29,14 +29,14 @@
 
 					<ul id="nav-desktop" class="right hide-on-med-and-down lista-menu">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Sobre</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
 					</ul> <!-- desktop -->
 
 					<ul id="menu-mobile" class="sidenav lista-menu">
 						<li><a class="waves-effect" href="#">Home</a></li>
-						<li><a class="waves-effect" href="#">Sobre</a></li>
-						<li><a class="waves-effect" href="#">Contato</a></li>
+						<li><a class="waves-effect" href="#sobre">Sobre</a></li>
+						<li><a class="waves-effect" href="#contato">Contato</a></li>
 					</ul> <!-- menumobile -->
 
 				<a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -76,7 +76,7 @@
 		</div><!-- container -->
 	</div><!-- cta - espaco -->
 
-	<div class="section">
+	<div id="sobre" class="section">
 		<div class="container">
 			<div class="row">
 
@@ -158,14 +158,14 @@
 	<div class="section">
 		<div class="container">
 			<div class="row">
-
 				<div class="col s12">
+
 					<div class="titulo-custom">
 						<div></div>
 						<h2>Nossa Equipe</h2>
 					</div> <!-- titulo -->
 
-					<div class="col m12 l6">
+					<div class="col s12 l6">
 						<ul class="collection">
 							<li class="collection-item avatar">
 								<i class="material-icons circle">account_circle</i>
@@ -186,7 +186,7 @@
 						</ul> <!-- collection -->
 					</div><!-- 2 membros -->
 
-					<div class="col m12 l6">
+					<div class="col s12 l6">
 						<ul class="collection">
 							<li class="collection-item avatar">
 								<i class="material-icons circle">account_circle</i>
@@ -207,15 +207,86 @@
 						</ul> <!-- collection -->
 					</div><!-- 2 membros -->
 				  	
-
 				</div><!-- Coluna principal -->
-
-			
-
 			</div><!-- linha -->
 		</div> <!-- container -->
 	</div> <!-- equipe -->
 	
+	<div id="contato" class="section">
+		<div class="container">
+				<div class="titulo-custom">
+					<div></div>
+					<h2>Entre em contato!</h2>
+				</div> <!-- titulo -->
+			<div class="row formulario">
+
+
+				<form class="col s12">
+					<div class="row">
+
+						<div class="input-field col s12 m6">
+							<input id="first_name" type="text" class="validate">
+							<label for="first_name">Primeiro Nome</label>
+						</div>
+
+						<div class="input-field col s12 m6">
+							<input id="last_name" type="text" class="validate">
+							<label for="last_name">Sobrenome</label>
+						</div>
+
+						<div class="input-field col s12">
+							<input id="emailContato" type="email" class="validate">
+							<label for="emailContato">Email</label>
+						</div>
+
+					</div><!-- linha -->
+
+					<div class="row">
+						
+						<div class="input-field col s12">
+							<textarea id="textarea1" class="materialize-textarea" placeholder="Sua mensagem aqui"></textarea>
+							<label for="textarea1">Mensagem</label>
+						</div>
+
+					</div><!-- linha -->
+
+					<div class="input-field col s12 center">
+						<button class="btn waves-effect waves-light pink darken-1" type="submit" name="action">Entrar!
+							<i class="material-icons right">send</i>
+						</button>
+					</div> <!-- input-field -->
+
+				</form> <!-- formulario -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+
+<footer class="page-footer pink darken-3">
+	<div class="container">
+		<div class="row">
+
+			<div class="col l6 s12 footer-text center">
+				<h5 class="white-text">Footer Content</h5>
+				<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+			</div>
+
+			<div class="col l4 offset-l2 s12 center">
+				<h5 class="white-text">Links</h5>
+				<ul class="links">
+					<li><a class="grey-text text-lighten-3" href="https://materializecss.com/" target="_blank">Materialize</a></li>
+					<li><a class="grey-text text-lighten-3" href="https://github.com/CipherCrow" target="_blank">Jonas GitHub</a></li>
+				</ul>
+			</div>
+
+		</div><!-- linha -->
+	</div>
+	<div class="footer-copyright">
+		<div class="container center">
+			<p>© 2021 Licença MIT</p>
+		</div>
+	</div><!-- footer-copyright -->
+</footer>
+
 
   	<!-- jquery, frameworks -->
 	<script src="js/jquery.js"></script>
